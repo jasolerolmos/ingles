@@ -34,16 +34,16 @@ include("inc/menu.php");
 	</div>
 	<div class="row">
 		<div class="col-md-10" style="background-color: black">
-			<span class="titulo_seccion"><?php echo $titulo;?></span>
-			<table border="0" cellpadding="0px" cellspacing="0px" width="100%">
-				<tr>
-					<?php
-						foreach ($menu_sup AS $m){
-							echo '<td class="texto_menu"><a href="'.($m['link']).'" >'.$m['texto'].'</a></td>';
-						}
-					?>
-				</tr>
-			</table>
+                    <span class="titulo_seccion"><?php echo $titulo;?></span>
+                    <table border="0" cellpadding="0px" cellspacing="0px" width="100%">
+                        <tr>
+                            <?php
+                                foreach ($menu_sup AS $m){
+                                    echo '<td class="texto_menu"><a href="'.($m['link']).'" >'.$m['texto'].'</a></td>';
+                                }
+                            ?>
+                        </tr>
+                    </table>
 		</div>
 		<div class="col-md-2" style="background-color: #cdcdcd">
 			<?php
