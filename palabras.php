@@ -147,7 +147,7 @@ include("inc/menu.php");
 				                alert('Libreria no encontrada');
 				            }
 				        },
-				        url: 'theme/alfa/func.php',
+				        url: 'inc/func.php',
 				        type: "POST",
 				        data: "cat="+$('#listaCategorias :selected').val(),
 				        beforeSend: function(){
