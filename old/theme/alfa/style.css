@@ -1,0 +1,9 @@
+#content{
+	color: #000000;
+	margin-top: 5px;
+	height: 530px;
+	overflow: auto;
+}
+.titulo_seccion{
+ 	font-size: 38px;
+ }

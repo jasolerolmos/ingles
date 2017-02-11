@@ -1,0 +1,41 @@
+#
+# Jose Carlos Cruz Parra
+# www.programadorphpfreelance.com
+# 2009-05-24
+#
+# WEB SENCILLA EN PHP
+#
+# .htaccess
+#
+
+<Files ".htaccess">
+deny from all
+</Files>
+
+ErrorDocument 400 /servererror.php?error=400
+ErrorDocument 401 /servererror.php?error=401
+ErrorDocument 402 /servererror.php?error=402
+ErrorDocument 403 /servererror.php?error=403
+ErrorDocument 404 /servererror.php?error=404
+ErrorDocument 405 /servererror.php?error=405
+ErrorDocument 406 /servererror.php?error=406
+ErrorDocument 408 /servererror.php?error=408
+ErrorDocument 410 /servererror.php?error=410
+ErrorDocument 411 /servererror.php?error=411
+ErrorDocument 412 /servererror.php?error=412
+ErrorDocument 413 /servererror.php?error=413
+ErrorDocument 414 /servererror.php?error=414
+ErrorDocument 415 /servererror.php?error=415
+ErrorDocument 500 /servererror.php?error=500
+ErrorDocument 501 /servererror.php?error=501
+
+Options +FollowSymLinks
+Options +ExecCGI
+RewriteEngine On
+
+php_flag register_globals off
+
+RewriteRule ^javascript/.*$ - [PT]
+
+RewriteRule ^(index|quien|nosotros|contacto|ejercicios|login|salir|lstverbos)/$ $1.php [L]
+RewriteRule ^(index|quien|nosotros|contacto|ejercicios|login|salir|lstverbos)$ $1.php [L]
