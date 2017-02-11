@@ -22,7 +22,6 @@ include("inc/menu.php");
         <!-- JavaScript -->
         <script src="js/jquery-1.10.2.min.js"></script>
         <script src="js/bootstrap.js"></script>
-        <script src="js/libreta.fun.js"></script>
         <script src="js/jquery.PrintArea.js"></script>
     </head>
 <body>
