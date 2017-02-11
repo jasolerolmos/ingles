@@ -8,13 +8,13 @@ include("inc/menu.php");
 <!DOCTYPE html>
 <html lang="es">
     <head>
-	    <meta charset="utf-8">
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Libreta Comandero</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Ingles a tu medida</title>
         <!-- CSS -->
-		<?php include("css/general.css.php"); ?>
-		<link rel="stylesheet" type="text/css" href="<?php echo $theme_dir."style.css";?>" media="screen" />
+        <?php include("css/general.css.php"); ?>
+        <link rel="stylesheet" type="text/css" href="<?php echo $theme_dir."style.css";?>" media="screen" />
         <link href="css/bootstrap.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="css/lightbox.css">
         <link type="text/css" rel="stylesheet" href="css/PrintArea.css" /> 
